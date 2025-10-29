@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marstek Argentina - Energía Inteligente</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="icon" type="image/png" href="images/icon_marstek.webp" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scripts/script-form.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="fixed w-full top-0 left-0 right-0 z-10 p-4 md:p-6 bg-black backdrop-blur-sm h-14 flex items-center justify-center shadow-lg"
+    >
+      <div
+        class="container mx-auto max-w-7xl flex justify-between items-center"
+      >
+        <div class="text-2xl font-bold text-white">
+          MARSTEK
+          <span class="text-blue-400">ARG</span>
+        </div>
+        <nav class="hidden md:flex space-x-6">
+          <a
+            href="#"
+            class="text-[#009dfd] hover:text-[#00ebe3] transition-colors"
+            >Home</a
+          >
+          <a
+            href="#nosotros-section"
+            class="text-white hover:text-[#00ebe3] transition-colors"
+            >Nosotros</a
+          >
+          <a
+            href="#power-station-section"
+            class="text-white hover:text-[#00ebe3] transition-colors"
+            >Power Station</a
+          >
+          <a
+            href="#contact-form"
+            class="text-white hover:text-[#00ebe3] transition-colors"
+            >Contacto</a
+          >
+        </nav>
+        <div class="md:hidden">
+          <!-- Mobile Menu Button --><button class="text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative h-screen min-h-[700px] flex items-center justify-center text-center hero-bg text-white pt-20"
+    >
+      <div class="absolute inset-0"></div>
+      <div class="relative z-5 max-w-4xl px-4">
+        <h1
+          class="text-7xl md:text-9xl font-black uppercase"
+          style="letter-spacing: 0.1em"
+        ></h1>
+      </div>
+    </section>
+
+    <!-- Nosotros & Icons -->
+    <section class="py-16 md:py-12 text-center" id="nosotros-section">
+      <div class="container mx-auto max-w-4xl px-4">
+        <h2 class="text-3xl md:text-4xl font-semibold mt-4 mb-6 text-blue-400">
+          Energía inteligente para un mundo conectado.<br />
+          Innovación en energía portátil y solar.
+        </h2>
+        <p class="text-lg text-black max-w-3xl mx-auto mb-6">
+          Somos Marstek Argentina. Desarrollamos soluciones de energía limpia y
+          portátil para acompañarte en cada desafío.<br />
+          Nuestra misión es simple: brindarte potencia confiable donde y cuando
+          la necesites.<br />
+          Hoy llegamos a Argentina para seguir encendiendo nuevas posibilidades.
+        </p>
+
+        <!-- Hero Icons -->
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-16"
+        >
+          <div class="flex flex-col items-center">
+            <div class="w-48 h-48 flex items-center justify-center">
+              <!-- Icon 1 -->
+              <img src="images/icono_1.svg" alt="icon1" />
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="w-48 h-48 flex items-center justify-center">
+              <!-- Icon 2 -->
+              <img src="images/icono_2.svg" alt="icon1" />
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="w-48 h-48 flex items-center justify-center">
+              <!-- Icon 3 -->
+              <img src="images/icono_3.svg" alt="icon1" />
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="w-48 h-48 flex items-center justify-center">
+              <img src="images/icono_4.svg" alt="icon1" />
+            </div>
+            <span>text</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Camping blade-->
+    <section
+      class="h-[50vh] md:h-[70vh] flex items-center justify-center text-center section-2-bg text-white"
+    ></section>
+
+    <!-- Products (M1200 & M1300) -->
+    <section class="py-8 md:py-12" id="power-station-section">
+      <div
+        class="container mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-8 md:gap-16"
+      >
+        <!-- Product 1 -->
+        <div class="overflow-hidden flex flex-col p-6 md:p-10 items-start">
+          <!-- <h3 class="text-3xl font-bold text-black">
+            Power Station Mercury <span class="text-blue-400">1200</span>
+          </h3> -->
+          <img
+            src="images/Product_m1200.webp"
+            alt="Power Station M1200"
+            class="my-6"
+          />
+          <h4 class="text-2xl font-semibold mb-4 text-center text-[#009DFD]">
+            Potencia portátil, sin límites.
+          </h4>
+          <p class="text-black mb-6 text-center text-md">
+            La estación de energía para tu vida en movimiento.
+          </p>
+          <ul class="text-gray-700 space-y-2 text-sm w-full mb-8">
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Inversor de onda sinusoidal pura de 2400 W (pico de hasta 4800 W).
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Entrada AC de 2000 W y entrada solar (PV) de 1200 W.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Batería LiFePO₄ de 2240 Wh, expandible hasta 6720 Wh.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Más de 6000 ciclos de vida útil de la batería.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Puertos: USB-C1 de 100 W, USB-C2 de 45 W, USB-A1/A2 de 18 W cada
+              uno.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Control inteligente desde la app de Marstek.
+            </li>
+          </ul>
+          <a href="#contact-form" class="custom-button"> Pedí el Tuyo </a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="overflow-hidden flex flex-col p-6 md:p-10 items-start">
+          <!-- <h3 class="text-3xl font-bold text-black">
+            Power Station Mercury <span class="text-blue-400">M1300</span>
+          </h3> -->
+          <img
+            src="images/Product_m2200.webp"
+            alt="Power Station M2200"
+            class="my-6"
+          />
+          <h4 class="text-2xl font-semibold mb-4 text-center text-[#009DFD]">
+            Energía confiable para acompañarte.
+          </h4>
+          <p class="text-black mb-6 text-center text-md">
+            Compacta, potente y pensada para vos.
+          </p>
+          <ul class="text-gray-700 space-y-2 text-sm w-full mb-8">
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Salida de CA de 1800 W (pico de hasta 3600 W).
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Entrada de CA de 1200 W y entrada solar (PV) de 800 W.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Batería LiFePO₄ de 1030 Wh, expandible hasta 2060 Wh.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Más de 6000 ciclos de vida útil de la batería.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Puertos: USB-C1 de 100 W, USB-C2 de 45 W, USB-A1/A2 de 18 W cada
+              uno.
+            </li>
+            <li
+              class="flex justify-between items-center pb-2 border-b border-gray-400"
+            >
+              Control mediante la app de Marstek.
+            </li>
+          </ul>
+          <a href="#contact-form" class="custom-button"> Pedí el Tuyo </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products (6720 & 2060) -->
+    <section class="py-8 md:py-8">
+      <div class="container mx-auto max-w-7xl px-4">
+        <div class="grid md:grid-cols-2 gap-4 mb-8">
+          <div class="product-display-item">
+            <img src="images/Product_6720.webp" alt="Marstek 6720 WI" />
+            <span class="product-display-text">6720WI</span>
+          </div>
+          <div class="product-display-item">
+            <img src="images/Product_2060.webp" alt="Marstek 2060 WI" />
+            <span class="product-display-text">2060WI</span>
+          </div>
+        </div>
+
+        <!-- Bottom spots  -->
+        <div class="grid grid-cols-4 gap-4 text-center items-start">
+          <div class="col-span-1">
+            <img
+              src="images/Spot_1.webp"
+              alt="UPS < 20ms"
+              class="w-full h-auto mb-2"
+            />
+            <h4 class="text-lg text-black">UPS < 20ms</h4>
+          </div>
+
+          <div class="col-span-2">
+            <img
+              src="images/Spot_2.webp"
+              alt="Vida útil de más de 6000 ciclos"
+              class="w-full h-auto mb-2"
+            />
+            <h4 class="text-lg text-black">Vida útil de más de 6000 ciclos</h4>
+          </div>
+
+          <div class="col-span-1">
+            <img
+              src="images/Spot_3.webp"
+              alt="Smart App"
+              class="w-full h-auto mb-2"
+            />
+            <h4 class="text-lg text-black">Smart App</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Powerbank blade -->
+    <section class="py-12 md:py-12">
+      <div class="container mx-auto max-w-7xl px-4">
+        <!-- Power Bank Image -->
+        <div class="powerbank-hero-bg mb-12">
+          <div class="powerbank-hero-content text-white"></div>
+        </div>
+
+        <!-- Powerbank details -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div>
+            <img src="images/Powerbank_2.webp" alt="Power Bank P288D in use" />
+          </div>
+
+          <!-- Powerbank specs -->
+          <div>
+            <p class="text-black mb-12">
+              El MARSTEK P288D es un power bank de alto rendimiento diseñado
+              para acompañarte en todo momento. Su capacidad de 25 000 mAh y
+              salida de hasta 100 W te permiten mantener activos tus
+              dispositivos, sin importar dónde estés. Ideal para viajes, trabajo
+              o aventuras al aire libre, combina potencia, velocidad y seguridad
+              en un cuerpo compacto y elegante.
+            </p>
+            <ul class="text-black space-y-3 mb-8">
+              <li class="flex items-center pb-2 border-b border-gray-400">
+                <span class="font-medium text-gray-700"
+                  >Capacidad 25 000 mAh (92,5 Wh).</span
+                >
+              </li>
+              <li
+                class="flex justify-between items-center pb-2 border-b border-gray-400"
+              >
+                <span class="font-medium text-gray-700"
+                  >Salida máxima 100 W con carga rápida.</span
+                >
+              </li>
+              <li
+                class="flex justify-between items-center pb-2 border-b border-gray-400"
+              >
+                <span class="font-medium text-gray-700"
+                  >Dos puertos USB-C y un puerto USB-A</span
+                >
+              </li>
+              <li
+                class="flex justify-between items-center pb-2 border-b border-gray-400"
+              >
+                <span class="font-medium text-gray-700"
+                  >Pantalla LED con nivel de carga en tiempo real.</span
+                >
+              </li>
+              <li
+                class="flex justify-between items-center pb-2 border-b border-gray-400"
+              >
+                <span class="font-medium text-gray-700"
+                  >Diseño compacto 51 x 49 x 155 mm, peso aprox. 450 g.</span
+                >
+              </li>
+              <li
+                class="flex justify-between items-center pb-2 border-b border-gray-400"
+              >
+                <span class="font-medium text-gray-700"
+                  >Protección Contra sobrecargas y cortocircuitos.</span
+                >
+              </li>
+              <li class="flex justify-between items-center">
+                <span class="font-medium text-gray-700"
+                  >Material Resistente con acabado premium.</span
+                >
+              </li>
+            </ul>
+            <a href="#contact-form" class="custom-button"> Pedí el Tuyo </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Camping kids blade -->
+    <section class="py-16 md:py-24 kids-camping-bg">
+      <div class="container mx-auto max-w-7xl px-4">
+        <div class="overflow-hidden"></div>
+      </div>
+    </section>
+
+    <!-- Contact form section-->
+    <section class="py-16 md:py-24 border-t-2 border-gray-400 bg-[#161414]">
+      <div
+        class="container mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-8 md:gap-16 items-center"
+      >
+        <!-- Info form -->
+        <div>
+          <h2 class="text-xl md:text-4xl font-bold mb-4 text-blue-400">
+            Potencia portátil, sin límites.
+          </h2>
+          <h3 class="text-lg text-white mb-8">
+            ¿Tenés dudas sobre nuestros productos?
+          </h3>
+          <p class="text-lg text-white mb-8">
+            En Marstek creemos en la energía como un puente. Completá el
+            formulario y nuestro equipo te responderá a la brevedad. Estamos
+            para ayudarte a encontrar la solución de energía que mejor se adapte
+            a vos y a tus proyectos.
+          </p>
+        </div>
+
+        <!-- Contact form area -->
+
+        <div class="p-8 bg-[#161414] rounded-lg">
+          <!-- <form id="contact-form">
+            <div class="mb-4">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nombre y apellido"
+                class="w-full px-4 py-2 bg-[#161414] border border-white text-white focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-500"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                class="w-full px-4 py-2 bg-[#161414] border border-white text-white focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-500"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Mensaje"
+                class="w-full px-4 py-2 bg-[#161414] border border-white text-white focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-500"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="custom-button">Enviar</button>
+          </form> -->
+
+          <!-- Status message -->
+          <div
+            id="status-message"
+            class="text-center mt-4 font-medium opacity-0"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-[#009DFD]">
+      <div
+        class="container mx-auto max-w-7xl px-4 text-center text-white font-bold"
+      >
+        <p>MARSTEK <span class="text-black">ARG</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
