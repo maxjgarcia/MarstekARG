@@ -5,6 +5,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #ffff;
   color: #f1f5f9;
+  overflow-x: hidden;
 }
 
 .hero-bg {
@@ -106,7 +107,7 @@ body {
 
   .kids-camping-bg {
     background-image: url('../images/Mobile_kids_camping.webp');
-    width: 70vh;
+    width: 100%;
     height: 50px;
   }
 }

@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="images/icon_marstek.webp" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script/script-form.js" defer></script>
-    <script src="script/script-navbar.js"></script>
+    <script src="script/script-navbar.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
       rel="stylesheet"
@@ -29,8 +29,7 @@
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
               viewBox="0 0 250 150"
-              class="h-48 max-h-8 w-auto"
-              style="max-height: 12rem"
+              class="h-48 w-auto"
             >
               <defs>
                 <style>
@@ -113,7 +112,7 @@
           >
         </nav>
         <div class="md:hidden">
-          <button class="text-white">
+          <button id="menu-button" class="text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -133,6 +132,30 @@
         </div>
       </div>
     </header>
+
+    <!-- Mobile Menu -->
+    <nav
+      id="mobile-menu"
+      class="hidden md:hidden fixed top-14 left-0 w-full bg-black/70 backdrop-blur-md z-40 shadow-xl py-4"
+    >
+      <div class="flex flex-col space-y-3 px-6 text-center">
+        <a
+          href="#nosotros-section"
+          class="nav-link mobile-link text-white hover:text-[#00ebe3] text-lg py-4 transition-colors border-b border-gray-700"
+          >Nosotros</a
+        >
+        <a
+          href="#power-station-section"
+          class="nav-link mobile-link text-white hover:text-[#00ebe3] text-lg py-4 transition-colors border-b border-gray-700"
+          >Power Station</a
+        >
+        <a
+          href="#contact-form"
+          class="nav-link mobile-link text-white hover:text-[#00ebe3] text-lg py-4 transition-colors"
+          >Contacto</a
+        >
+      </div>
+    </nav>
 
     <!-- Hero Section -->
     <section
@@ -266,7 +289,7 @@
         <!-- Product 2 -->
         <div class="overflow-hidden flex flex-col p-6 md:p-10 items-start">
           <img
-            src="images/Product_m1200.webp"
+            src="images/Product_m1200_new.webp"
             alt="Power Station M2200"
             class="my-6"
           />
@@ -441,7 +464,7 @@
     </section>
 
     <!-- Camping kids blade -->
-    <section class="py-16 md:py-24 kids-camping-bg">
+    <section class="py-16 md:py-24 kids-camping-bg hidden md:block">
       <div class="container mx-auto max-w-7xl px-4">
         <div class="overflow-hidden"></div>
       </div>
